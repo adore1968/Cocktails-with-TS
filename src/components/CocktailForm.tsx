@@ -4,16 +4,21 @@ function CocktailForm() {
   const { search, changeSearch } = useAppContext();
   return (
     <div className="my-20 flex justify-center">
-      <form className="flex min-w-fit max-w-xl flex-auto flex-col gap-2 rounded bg-white p-5 text-xl text-green-500 sm:text-2xl">
-        Search Your Favorite Cocktail
-        <input
-          type="text"
-          name="search"
-          id="search"
-          value={search}
-          onChange={(e) => changeSearch(e)}
-          className="w-full border px-2 py-1.5 text-lg text-gray-600 sm:text-xl"
-        />
+      <form className="flex max-w-xl bg-gray-50 p-5">
+        <label
+          htmlFor="search"
+          className="text-xl font-medium text-green-600 sm:text-2xl"
+        >
+          Search Your Favorite Cocktail
+          <input
+            type="text"
+            name="search"
+            id="search"
+            value={search}
+            onChange={(e) => changeSearch(e)}
+            className="mt-1 w-full rounded border bg-gray-950 px-4 py-2 text-lg text-gray-50 sm:text-xl"
+          />
+        </label>
       </form>
     </div>
   );

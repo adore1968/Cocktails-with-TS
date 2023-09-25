@@ -13,7 +13,7 @@ function CocktailValue({ cocktail }: Props) {
         <p className="text-lg text-gray-400 sm:text-xl">{cocktail.alcoholic}</p>
         <Link
           to={`/cocktails/${cocktail.id}`}
-          className="mt-1 w-fit rounded bg-green-600 p-2.5 text-lg uppercase text-white transition-colors hover:bg-green-500 sm:text-xl"
+          className="mt-1 w-fit rounded bg-green-600 p-2.5 text-lg uppercase text-gray-50 transition-colors hover:bg-green-500 sm:text-xl"
         >
           Details
         </Link>

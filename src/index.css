@@ -9,5 +9,5 @@
 }
 
 .app {
-  background-color: #1c77ac !important;
+  @apply bg-gray-950;
 }

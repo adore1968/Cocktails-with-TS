@@ -17,10 +17,10 @@ function CocktailList() {
 
   return (
     <div className="container mx-auto">
-      <h1 className="mb-10 text-center text-3xl font-bold text-white sm:text-4xl">
+      <h1 className="mb-10 text-center text-3xl font-bold text-gray-50 sm:text-4xl">
         Cocktails
       </h1>
-      <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 md:grid-cols-3">
+      <div className="grid grid-cols-1 gap-2.5 sm:grid-cols-2 md:grid-cols-3">
         {cocktails.map((cocktail) => (
           <CocktailValue key={cocktail.id} cocktail={cocktail} />
         ))}

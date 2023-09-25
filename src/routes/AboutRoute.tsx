@@ -4,7 +4,7 @@ function AboutRoute() {
       <h1 className="text-center text-3xl font-bold text-white sm:text-4xl">
         About Us
       </h1>
-      <p className="text-lg text-slate-100 sm:text-xl">
+      <p className="text-center text-lg text-slate-100 sm:text-xl">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
         tempore sequi placeat quas cupiditate eos, architecto officia aliquam
         sint possimus dolorum facere quisquam vitae blanditiis debitis iste fuga
